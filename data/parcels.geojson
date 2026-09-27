@@ -1,0 +1,3688 @@
+{
+  "type": "FeatureCollection",
+  "name": "NLAMS_Cadastral_Parcels_NH_GJ_001",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "P-1038",
+      "properties": {
+        "parcel_id": "P-1038",
+        "survey_number": "Sur-1038",
+        "khasra_number": "1038",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.54,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1038",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 6372000,
+        "compensation_paid": 6372000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.38838,
+        "gps_lng": 71.06176
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0608,
+              22.3892
+            ],
+            [
+              71.0628,
+              22.3899
+            ],
+            [
+              71.0634,
+              22.3876
+            ],
+            [
+              71.0614,
+              22.387
+            ],
+            [
+              71.0604,
+              22.3882
+            ],
+            [
+              71.0608,
+              22.3892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1039",
+      "properties": {
+        "parcel_id": "P-1039",
+        "survey_number": "Sur-1039",
+        "khasra_number": "1039",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.46,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1039",
+        "owner_count": 4,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 4428000,
+        "compensation_paid": 4428000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.389,
+        "gps_lng": 71.06475
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.063,
+              22.39
+            ],
+            [
+              71.066,
+              22.3906
+            ],
+            [
+              71.0664,
+              22.3879
+            ],
+            [
+              71.0636,
+              22.3875
+            ],
+            [
+              71.063,
+              22.39
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1040",
+      "properties": {
+        "parcel_id": "P-1040",
+        "survey_number": "Sur-1040",
+        "khasra_number": "1040",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 1.57,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1040",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 2826000,
+        "compensation_paid": 2826000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.38945,
+        "gps_lng": 71.06795
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0662,
+              22.3907
+            ],
+            [
+              71.0694,
+              22.391
+            ],
+            [
+              71.0697,
+              22.3882
+            ],
+            [
+              71.0665,
+              22.3879
+            ],
+            [
+              71.0662,
+              22.3907
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1041",
+      "properties": {
+        "parcel_id": "P-1041",
+        "survey_number": "Sur-1041",
+        "khasra_number": "1041",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.21,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1041",
+        "owner_count": 3,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 7578000,
+        "compensation_paid": 7578000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.3895,
+        "gps_lng": 71.0711
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0696,
+              22.391
+            ],
+            [
+              71.0724,
+              22.3908
+            ],
+            [
+              71.0726,
+              22.388
+            ],
+            [
+              71.0698,
+              22.3882
+            ],
+            [
+              71.0696,
+              22.391
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1042",
+      "properties": {
+        "parcel_id": "P-1042",
+        "survey_number": "Sur-1042",
+        "khasra_number": "1042",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.46,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Suresh & Bhavesh Patel (Joint)",
+        "owner_count": 4,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 4560000,
+        "compensation_paid": 0,
+        "legal_status": "Disputed",
+        "legal_case_no": "LEG-2026-0042 (High Court)",
+        "possession_status": "Not Taken",
+        "risk_level": "High",
+        "ai_risk_score": 84,
+        "field_verified": true,
+        "field_verified_date": "2026-09-11",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.385725,
+        "gps_lng": 71.0677
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.066,
+              22.3874
+            ],
+            [
+              71.0682,
+              22.3876
+            ],
+            [
+              71.0696,
+              22.3873
+            ],
+            [
+              71.0699,
+              22.3853
+            ],
+            [
+              71.0695,
+              22.3841
+            ],
+            [
+              71.0673,
+              22.3839
+            ],
+            [
+              71.0656,
+              22.3843
+            ],
+            [
+              71.0655,
+              22.3859
+            ],
+            [
+              71.066,
+              22.3874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1042/1",
+      "properties": {
+        "parcel_id": "P-1042/1",
+        "survey_number": "Sur-1042/1",
+        "khasra_number": "1042/1",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.5,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Ramesh Bhai Patel & Heirs",
+        "owner_count": 3,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 3800000,
+        "compensation_paid": 0,
+        "legal_status": "Disputed",
+        "legal_case_no": "LEG-2026-0045",
+        "possession_status": "Not Taken",
+        "risk_level": "High",
+        "ai_risk_score": 78,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.38555,
+        "gps_lng": 71.07115
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0698,
+              22.3873
+            ],
+            [
+              71.0724,
+              22.387
+            ],
+            [
+              71.0727,
+              22.3839
+            ],
+            [
+              71.0697,
+              22.384
+            ],
+            [
+              71.0698,
+              22.3873
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1042/2",
+      "properties": {
+        "parcel_id": "P-1042/2",
+        "survey_number": "Sur-1042/2",
+        "khasra_number": "1042/2",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.15,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1042/2",
+        "owner_count": 2,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 3870000,
+        "compensation_paid": 3870000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 11,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.382675,
+        "gps_lng": 71.067375
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0656,
+              22.3841
+            ],
+            [
+              71.0695,
+              22.3839
+            ],
+            [
+              71.0692,
+              22.3812
+            ],
+            [
+              71.0652,
+              22.3815
+            ],
+            [
+              71.0656,
+              22.3841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1042/3",
+      "properties": {
+        "parcel_id": "P-1042/3",
+        "survey_number": "Sur-1042/3",
+        "khasra_number": "1042/3",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.98,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1042/3",
+        "owner_count": 3,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 5364000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 60,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.3824,
+        "gps_lng": 71.07095
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0697,
+              22.3839
+            ],
+            [
+              71.0725,
+              22.3837
+            ],
+            [
+              71.0722,
+              22.3809
+            ],
+            [
+              71.0694,
+              22.3811
+            ],
+            [
+              71.0697,
+              22.3839
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1043",
+      "properties": {
+        "parcel_id": "P-1043",
+        "survey_number": "Sur-1043",
+        "khasra_number": "1043",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.48,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1043",
+        "owner_count": 1,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 6264000,
+        "compensation_paid": 6264000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 14,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.385975,
+        "gps_lng": 71.075
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0734,
+              22.3876
+            ],
+            [
+              71.0764,
+              22.3873
+            ],
+            [
+              71.0766,
+              22.3844
+            ],
+            [
+              71.0736,
+              22.3846
+            ],
+            [
+              71.0734,
+              22.3876
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1043/1",
+      "properties": {
+        "parcel_id": "P-1043/1",
+        "survey_number": "Sur-1043/1",
+        "khasra_number": "1043/1",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 1.35,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1043/1",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 2430000,
+        "compensation_paid": 2430000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 17,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.383,
+        "gps_lng": 71.0752
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0736,
+              22.3844
+            ],
+            [
+              71.0766,
+              22.3842
+            ],
+            [
+              71.0768,
+              22.3816
+            ],
+            [
+              71.0738,
+              22.3818
+            ],
+            [
+              71.0736,
+              22.3844
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1044",
+      "properties": {
+        "parcel_id": "P-1044",
+        "survey_number": "Sur-1044",
+        "khasra_number": "1044",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.57,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1044",
+        "owner_count": 3,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 8226000,
+        "compensation_paid": 8226000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.389616,
+        "gps_lng": 71.056832
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.058066,
+              22.389775
+            ],
+            [
+              71.057454,
+              22.390484
+            ],
+            [
+              71.05671,
+              22.390583
+            ],
+            [
+              71.055731,
+              22.390103
+            ],
+            [
+              71.055559,
+              22.389038
+            ],
+            [
+              71.056685,
+              22.38836
+            ],
+            [
+              71.057617,
+              22.388971
+            ],
+            [
+              71.058066,
+              22.389775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1045",
+      "properties": {
+        "parcel_id": "P-1045",
+        "survey_number": "Sur-1045",
+        "khasra_number": "1045",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.15,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Ramesh Bhai Patel & Heirs",
+        "owner_count": 1,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 3800000,
+        "compensation_paid": 0,
+        "legal_status": "Disputed",
+        "legal_case_no": "LEG-2026-0045",
+        "possession_status": "Not Taken",
+        "risk_level": "High",
+        "ai_risk_score": 78,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.3891,
+        "gps_lng": 71.0746
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0732,
+              22.3906
+            ],
+            [
+              71.0758,
+              22.3904
+            ],
+            [
+              71.076,
+              22.3876
+            ],
+            [
+              71.0734,
+              22.3878
+            ],
+            [
+              71.0732,
+              22.3906
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1046",
+      "properties": {
+        "parcel_id": "P-1046",
+        "survey_number": "Sur-1046",
+        "khasra_number": "1046",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.55,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1046",
+        "owner_count": 4,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 6390000,
+        "compensation_paid": 6390000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.388875,
+        "gps_lng": 71.0774
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.076,
+              22.3904
+            ],
+            [
+              71.0786,
+              22.3902
+            ],
+            [
+              71.0788,
+              22.3874
+            ],
+            [
+              71.0762,
+              22.3875
+            ],
+            [
+              71.076,
+              22.3904
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1047",
+      "properties": {
+        "parcel_id": "P-1047",
+        "survey_number": "Sur-1047",
+        "khasra_number": "1047",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.23,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1047",
+        "owner_count": 6,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 5814000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 61,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.389218,
+        "gps_lng": 71.067361
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.068754,
+              22.389343
+            ],
+            [
+              71.068137,
+              22.389955
+            ],
+            [
+              71.067122,
+              22.39028
+            ],
+            [
+              71.06615,
+              22.389766
+            ],
+            [
+              71.066221,
+              22.388606
+            ],
+            [
+              71.067136,
+              22.388383
+            ],
+            [
+              71.06801,
+              22.388195
+            ],
+            [
+              71.068754,
+              22.389343
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1048",
+      "properties": {
+        "parcel_id": "P-1048",
+        "survey_number": "Sur-1048",
+        "khasra_number": "1048",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 1.75,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1048",
+        "owner_count": 3,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 3150000,
+        "compensation_paid": 3150000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 10,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.389553,
+        "gps_lng": 71.071202
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.072249,
+              22.389583
+            ],
+            [
+              71.071924,
+              22.390236
+            ],
+            [
+              71.071185,
+              22.390903
+            ],
+            [
+              71.070644,
+              22.390574
+            ],
+            [
+              71.069878,
+              22.389606
+            ],
+            [
+              71.070401,
+              22.388689
+            ],
+            [
+              71.071196,
+              22.388311
+            ],
+            [
+              71.07214,
+              22.38852
+            ],
+            [
+              71.072249,
+              22.389583
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1049",
+      "properties": {
+        "parcel_id": "P-1049",
+        "survey_number": "Sur-1049",
+        "khasra_number": "1049",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.99,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1049",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 5382000,
+        "compensation_paid": 5382000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.3801,
+        "gps_lng": 71.0754
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0738,
+              22.3816
+            ],
+            [
+              71.0768,
+              22.3814
+            ],
+            [
+              71.077,
+              22.3786
+            ],
+            [
+              71.074,
+              22.3788
+            ],
+            [
+              71.0738,
+              22.3816
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1050",
+      "properties": {
+        "parcel_id": "P-1050",
+        "survey_number": "Sur-1050",
+        "khasra_number": "1050",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.79,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1050",
+        "owner_count": 4,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 8622000,
+        "compensation_paid": 8622000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.3799,
+        "gps_lng": 71.066625
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0648,
+              22.3813
+            ],
+            [
+              71.0688,
+              22.381
+            ],
+            [
+              71.0685,
+              22.3785
+            ],
+            [
+              71.0644,
+              22.3788
+            ],
+            [
+              71.0648,
+              22.3813
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1051",
+      "properties": {
+        "parcel_id": "P-1051",
+        "survey_number": "Sur-1051",
+        "khasra_number": "1051",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.55,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Farmer Owner 1051",
+        "owner_count": 1,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 4590000,
+        "compensation_paid": 4590000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.37955,
+        "gps_lng": 71.07045
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.069,
+              22.3809
+            ],
+            [
+              71.0722,
+              22.3807
+            ],
+            [
+              71.0719,
+              22.3782
+            ],
+            [
+              71.0687,
+              22.3784
+            ],
+            [
+              71.069,
+              22.3809
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1052",
+      "properties": {
+        "parcel_id": "P-1052",
+        "survey_number": "Sur-1052",
+        "khasra_number": "1052",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.41,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1052",
+        "owner_count": 4,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 4338000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 51,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.379875,
+        "gps_lng": 71.0782
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.077,
+              22.3814
+            ],
+            [
+              71.0792,
+              22.3812
+            ],
+            [
+              71.0794,
+              22.3784
+            ],
+            [
+              71.0772,
+              22.3785
+            ],
+            [
+              71.077,
+              22.3814
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1053",
+      "properties": {
+        "parcel_id": "P-1053",
+        "survey_number": "Sur-1053",
+        "khasra_number": "1053",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.51,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1053",
+        "owner_count": 6,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 4518000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 56,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.392688,
+        "gps_lng": 71.057149
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.058593,
+              22.392643
+            ],
+            [
+              71.057754,
+              22.393612
+            ],
+            [
+              71.056907,
+              22.393665
+            ],
+            [
+              71.056174,
+              22.393262
+            ],
+            [
+              71.055894,
+              22.392307
+            ],
+            [
+              71.056882,
+              22.39154
+            ],
+            [
+              71.05784,
+              22.391785
+            ],
+            [
+              71.058593,
+              22.392643
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1054",
+      "properties": {
+        "parcel_id": "P-1054",
+        "survey_number": "Sur-1054",
+        "khasra_number": "1054",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.56,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1054",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 8207999,
+        "compensation_paid": 8207999,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 17,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.392646,
+        "gps_lng": 71.060287
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.061711,
+              22.392531
+            ],
+            [
+              71.061153,
+              22.393286
+            ],
+            [
+              71.06002,
+              22.393946
+            ],
+            [
+              71.059154,
+              22.393054
+            ],
+            [
+              71.059092,
+              22.392303
+            ],
+            [
+              71.059938,
+              22.391589
+            ],
+            [
+              71.060939,
+              22.391815
+            ],
+            [
+              71.061711,
+              22.392531
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1055",
+      "properties": {
+        "parcel_id": "P-1055",
+        "survey_number": "Sur-1055",
+        "khasra_number": "1055",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.61,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1055",
+        "owner_count": 6,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 4698000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 36,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.393137,
+        "gps_lng": 71.064165
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.065393,
+              22.393084
+            ],
+            [
+              71.064953,
+              22.39402
+            ],
+            [
+              71.064241,
+              22.394387
+            ],
+            [
+              71.06338,
+              22.393876
+            ],
+            [
+              71.062811,
+              22.392974
+            ],
+            [
+              71.06324,
+              22.392275
+            ],
+            [
+              71.064222,
+              22.392114
+            ],
+            [
+              71.065081,
+              22.392367
+            ],
+            [
+              71.065393,
+              22.393084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1056",
+      "properties": {
+        "parcel_id": "P-1056",
+        "survey_number": "Sur-1056",
+        "khasra_number": "1056",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 1.66,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1056",
+        "owner_count": 1,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 2988000,
+        "compensation_paid": 2988000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 18,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.392723,
+        "gps_lng": 71.067674
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.068723,
+              22.392884
+            ],
+            [
+              71.068584,
+              22.393549
+            ],
+            [
+              71.067963,
+              22.393763
+            ],
+            [
+              71.067072,
+              22.393646
+            ],
+            [
+              71.066707,
+              22.393011
+            ],
+            [
+              71.066405,
+              22.392271
+            ],
+            [
+              71.067127,
+              22.391704
+            ],
+            [
+              71.068013,
+              22.391606
+            ],
+            [
+              71.068469,
+              22.39207
+            ],
+            [
+              71.068723,
+              22.392884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1057",
+      "properties": {
+        "parcel_id": "P-1057",
+        "survey_number": "Sur-1057",
+        "khasra_number": "1057",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.56,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1057",
+        "owner_count": 2,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 6408000,
+        "compensation_paid": 6408000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 23,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.392868,
+        "gps_lng": 71.070865
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.072264,
+              22.392744
+            ],
+            [
+              71.071512,
+              22.393682
+            ],
+            [
+              71.07046,
+              22.3939
+            ],
+            [
+              71.069709,
+              22.393411
+            ],
+            [
+              71.069718,
+              22.392495
+            ],
+            [
+              71.070534,
+              22.391787
+            ],
+            [
+              71.071855,
+              22.392056
+            ],
+            [
+              71.072264,
+              22.392744
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1058",
+      "properties": {
+        "parcel_id": "P-1058",
+        "survey_number": "Sur-1058",
+        "khasra_number": "1058",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.03,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1058",
+        "owner_count": 2,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 3653999,
+        "compensation_paid": 3653999,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 23,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.393092,
+        "gps_lng": 71.074308
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.075342,
+              22.392986
+            ],
+            [
+              71.074955,
+              22.394025
+            ],
+            [
+              71.073869,
+              22.394214
+            ],
+            [
+              71.072946,
+              22.393127
+            ],
+            [
+              71.073766,
+              22.392019
+            ],
+            [
+              71.074968,
+              22.392179
+            ],
+            [
+              71.075342,
+              22.392986
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1059",
+      "properties": {
+        "parcel_id": "P-1059",
+        "survey_number": "Sur-1059",
+        "khasra_number": "1059",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.6,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1059",
+        "owner_count": 4,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 8279999,
+        "compensation_paid": 8279999,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 21,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.392674,
+        "gps_lng": 71.078204
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.079396,
+              22.392731
+            ],
+            [
+              71.078835,
+              22.393639
+            ],
+            [
+              71.077584,
+              22.393419
+            ],
+            [
+              71.077145,
+              22.392676
+            ],
+            [
+              71.077559,
+              22.391914
+            ],
+            [
+              71.078704,
+              22.391666
+            ],
+            [
+              71.079396,
+              22.392731
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1060",
+      "properties": {
+        "parcel_id": "P-1060",
+        "survey_number": "Sur-1060",
+        "khasra_number": "1060",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.59,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1060",
+        "owner_count": 3,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 8262000,
+        "compensation_paid": 8262000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 14,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.39264,
+        "gps_lng": 71.081592
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.082866,
+              22.392635
+            ],
+            [
+              71.082073,
+              22.393488
+            ],
+            [
+              71.081328,
+              22.393723
+            ],
+            [
+              71.080671,
+              22.393135
+            ],
+            [
+              71.080514,
+              22.392153
+            ],
+            [
+              71.081391,
+              22.391727
+            ],
+            [
+              71.082299,
+              22.391616
+            ],
+            [
+              71.082866,
+              22.392635
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1061",
+      "properties": {
+        "parcel_id": "P-1061",
+        "survey_number": "Sur-1061",
+        "khasra_number": "1061",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 1.62,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1061",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 2916000,
+        "compensation_paid": 2916000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 17,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.395956,
+        "gps_lng": 71.05345
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.054807,
+              22.396022
+            ],
+            [
+              71.054213,
+              22.396572
+            ],
+            [
+              71.053369,
+              22.397223
+            ],
+            [
+              71.05257,
+              22.396815
+            ],
+            [
+              71.052536,
+              22.395827
+            ],
+            [
+              71.052359,
+              22.395194
+            ],
+            [
+              71.053492,
+              22.394621
+            ],
+            [
+              71.05425,
+              22.395376
+            ],
+            [
+              71.054807,
+              22.396022
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1062",
+      "properties": {
+        "parcel_id": "P-1062",
+        "survey_number": "Sur-1062",
+        "khasra_number": "1062",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 1.48,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Ramesh Bhai Patel & Heirs",
+        "owner_count": 1,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 3800000,
+        "compensation_paid": 0,
+        "legal_status": "Disputed",
+        "legal_case_no": "LEG-2026-0045",
+        "possession_status": "Not Taken",
+        "risk_level": "High",
+        "ai_risk_score": 78,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.396102,
+        "gps_lng": 71.057215
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.058652,
+              22.396326
+            ],
+            [
+              71.05789,
+              22.39679
+            ],
+            [
+              71.057117,
+              22.397025
+            ],
+            [
+              71.056338,
+              22.397008
+            ],
+            [
+              71.055771,
+              22.396178
+            ],
+            [
+              71.056596,
+              22.395381
+            ],
+            [
+              71.057282,
+              22.394926
+            ],
+            [
+              71.058071,
+              22.39518
+            ],
+            [
+              71.058652,
+              22.396326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1063",
+      "properties": {
+        "parcel_id": "P-1063",
+        "survey_number": "Sur-1063",
+        "khasra_number": "1063",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.47,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1063",
+        "owner_count": 2,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 6246000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 44,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.395728,
+        "gps_lng": 71.06066
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.061684,
+              22.395604
+            ],
+            [
+              71.061669,
+              22.39642
+            ],
+            [
+              71.061062,
+              22.397002
+            ],
+            [
+              71.059879,
+              22.396671
+            ],
+            [
+              71.059611,
+              22.395959
+            ],
+            [
+              71.059304,
+              22.395378
+            ],
+            [
+              71.060031,
+              22.394884
+            ],
+            [
+              71.061009,
+              22.394724
+            ],
+            [
+              71.061689,
+              22.39491
+            ],
+            [
+              71.061684,
+              22.395604
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1064",
+      "properties": {
+        "parcel_id": "P-1064",
+        "survey_number": "Sur-1064",
+        "khasra_number": "1064",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 1.74,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1064",
+        "owner_count": 3,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 3132000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 57,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.395899,
+        "gps_lng": 71.063955
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.064951,
+              22.395845
+            ],
+            [
+              71.064695,
+              22.396632
+            ],
+            [
+              71.063824,
+              22.397213
+            ],
+            [
+              71.063234,
+              22.396619
+            ],
+            [
+              71.062834,
+              22.395861
+            ],
+            [
+              71.063169,
+              22.395141
+            ],
+            [
+              71.063999,
+              22.394645
+            ],
+            [
+              71.064937,
+              22.395235
+            ],
+            [
+              71.064951,
+              22.395845
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1065",
+      "properties": {
+        "parcel_id": "P-1065",
+        "survey_number": "Sur-1065",
+        "khasra_number": "1065",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.68,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1065",
+        "owner_count": 3,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 6624000,
+        "compensation_paid": 6624000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 13,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.395699,
+        "gps_lng": 71.067249
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.068516,
+              22.395643
+            ],
+            [
+              71.068153,
+              22.396293
+            ],
+            [
+              71.067387,
+              22.396878
+            ],
+            [
+              71.066684,
+              22.396694
+            ],
+            [
+              71.065896,
+              22.39602
+            ],
+            [
+              71.06631,
+              22.395351
+            ],
+            [
+              71.06646,
+              22.394674
+            ],
+            [
+              71.067694,
+              22.394633
+            ],
+            [
+              71.068144,
+              22.395107
+            ],
+            [
+              71.068516,
+              22.395643
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1066",
+      "properties": {
+        "parcel_id": "P-1066",
+        "survey_number": "Sur-1066",
+        "khasra_number": "1066",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.48,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1066",
+        "owner_count": 2,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 8064000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 50,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.395636,
+        "gps_lng": 71.071225
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.072626,
+              22.39573
+            ],
+            [
+              71.072064,
+              22.396319
+            ],
+            [
+              71.071286,
+              22.396848
+            ],
+            [
+              71.070203,
+              22.396209
+            ],
+            [
+              71.070067,
+              22.395702
+            ],
+            [
+              71.070268,
+              22.394879
+            ],
+            [
+              71.071078,
+              22.394597
+            ],
+            [
+              71.072205,
+              22.394802
+            ],
+            [
+              71.072626,
+              22.39573
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1067",
+      "properties": {
+        "parcel_id": "P-1067",
+        "survey_number": "Sur-1067",
+        "khasra_number": "1067",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 1.57,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1067",
+        "owner_count": 2,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 2826000,
+        "compensation_paid": 2826000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 19,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.396021,
+        "gps_lng": 71.074519
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.075874,
+              22.396148
+            ],
+            [
+              71.075302,
+              22.396562
+            ],
+            [
+              71.074631,
+              22.396922
+            ],
+            [
+              71.07379,
+              22.39688
+            ],
+            [
+              71.073379,
+              22.396639
+            ],
+            [
+              71.073246,
+              22.395631
+            ],
+            [
+              71.073976,
+              22.394832
+            ],
+            [
+              71.074775,
+              22.395059
+            ],
+            [
+              71.075699,
+              22.395514
+            ],
+            [
+              71.075874,
+              22.396148
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1068",
+      "properties": {
+        "parcel_id": "P-1068",
+        "survey_number": "Sur-1068",
+        "khasra_number": "1068",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.03,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1068",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 3653999,
+        "compensation_paid": 3653999,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 22,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.396116,
+        "gps_lng": 71.078027
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.078972,
+              22.396226
+            ],
+            [
+              71.079178,
+              22.396781
+            ],
+            [
+              71.078312,
+              22.397041
+            ],
+            [
+              71.077211,
+              22.397202
+            ],
+            [
+              71.076988,
+              22.396523
+            ],
+            [
+              71.077139,
+              22.39585
+            ],
+            [
+              71.077477,
+              22.394989
+            ],
+            [
+              71.078311,
+              22.395124
+            ],
+            [
+              71.078659,
+              22.395312
+            ],
+            [
+              71.078972,
+              22.396226
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1069",
+      "properties": {
+        "parcel_id": "P-1069",
+        "survey_number": "Sur-1069",
+        "khasra_number": "1069",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.87,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1069",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 6966000,
+        "compensation_paid": 6966000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 10,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.395786,
+        "gps_lng": 71.08161
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.083042,
+              22.395903
+            ],
+            [
+              71.082347,
+              22.396514
+            ],
+            [
+              71.081596,
+              22.396821
+            ],
+            [
+              71.080836,
+              22.396507
+            ],
+            [
+              71.080503,
+              22.3958
+            ],
+            [
+              71.080699,
+              22.395101
+            ],
+            [
+              71.081672,
+              22.394714
+            ],
+            [
+              71.082188,
+              22.394926
+            ],
+            [
+              71.083042,
+              22.395903
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1070",
+      "properties": {
+        "parcel_id": "P-1070",
+        "survey_number": "Sur-1070",
+        "khasra_number": "1070",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.38,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1070",
+        "owner_count": 4,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 7884000,
+        "compensation_paid": 7884000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 25,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.399183,
+        "gps_lng": 71.053422
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.054793,
+              22.399144
+            ],
+            [
+              71.053955,
+              22.400352
+            ],
+            [
+              71.052789,
+              22.400189
+            ],
+            [
+              71.051995,
+              22.399216
+            ],
+            [
+              71.052971,
+              22.398032
+            ],
+            [
+              71.054031,
+              22.398167
+            ],
+            [
+              71.054793,
+              22.399144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1071",
+      "properties": {
+        "parcel_id": "P-1071",
+        "survey_number": "Sur-1071",
+        "khasra_number": "1071",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.49,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1071",
+        "owner_count": 1,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 6282000,
+        "compensation_paid": 6282000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 15,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.399045,
+        "gps_lng": 71.056927
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.0582,
+              22.399091
+            ],
+            [
+              71.057739,
+              22.39969
+            ],
+            [
+              71.056271,
+              22.400075
+            ],
+            [
+              71.055637,
+              22.399112
+            ],
+            [
+              71.05624,
+              22.398292
+            ],
+            [
+              71.057475,
+              22.398011
+            ],
+            [
+              71.0582,
+              22.399091
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1072",
+      "properties": {
+        "parcel_id": "P-1072",
+        "survey_number": "Sur-1072",
+        "khasra_number": "1072",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.68,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1072",
+        "owner_count": 4,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 8424000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 53,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.399179,
+        "gps_lng": 71.060349
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.06148,
+              22.399213
+            ],
+            [
+              71.061475,
+              22.399992
+            ],
+            [
+              71.060761,
+              22.400439
+            ],
+            [
+              71.059517,
+              22.399916
+            ],
+            [
+              71.059224,
+              22.399524
+            ],
+            [
+              71.058979,
+              22.398716
+            ],
+            [
+              71.059801,
+              22.398309
+            ],
+            [
+              71.060677,
+              22.398031
+            ],
+            [
+              71.061229,
+              22.398475
+            ],
+            [
+              71.06148,
+              22.399213
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1073",
+      "properties": {
+        "parcel_id": "P-1073",
+        "survey_number": "Sur-1073",
+        "khasra_number": "1073",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.21,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1073",
+        "owner_count": 1,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 5778000,
+        "compensation_paid": 5778000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 22,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.399147,
+        "gps_lng": 71.063933
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.065017,
+              22.39924
+            ],
+            [
+              71.064644,
+              22.399987
+            ],
+            [
+              71.063984,
+              22.400368
+            ],
+            [
+              71.062957,
+              22.399833
+            ],
+            [
+              71.062876,
+              22.399156
+            ],
+            [
+              71.063357,
+              22.398375
+            ],
+            [
+              71.063973,
+              22.39788
+            ],
+            [
+              71.064655,
+              22.398335
+            ],
+            [
+              71.065017,
+              22.39924
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1074",
+      "properties": {
+        "parcel_id": "P-1074",
+        "survey_number": "Sur-1074",
+        "khasra_number": "1074",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.97,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1074",
+        "owner_count": 1,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 5346000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 55,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.399395,
+        "gps_lng": 71.067447
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.068534,
+              22.399288
+            ],
+            [
+              71.068409,
+              22.400289
+            ],
+            [
+              71.067047,
+              22.400229
+            ],
+            [
+              71.066186,
+              22.399838
+            ],
+            [
+              71.066495,
+              22.398882
+            ],
+            [
+              71.067157,
+              22.398507
+            ],
+            [
+              71.0683,
+              22.398732
+            ],
+            [
+              71.068534,
+              22.399288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1075",
+      "properties": {
+        "parcel_id": "P-1075",
+        "survey_number": "Sur-1075",
+        "khasra_number": "1075",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.67,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1075",
+        "owner_count": 2,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 4806000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 62,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.399306,
+        "gps_lng": 71.071276
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.072206,
+              22.399358
+            ],
+            [
+              71.072117,
+              22.399757
+            ],
+            [
+              71.071551,
+              22.40051
+            ],
+            [
+              71.070573,
+              22.400086
+            ],
+            [
+              71.070311,
+              22.399801
+            ],
+            [
+              71.070308,
+              22.398974
+            ],
+            [
+              71.070867,
+              22.39847
+            ],
+            [
+              71.071522,
+              22.398278
+            ],
+            [
+              71.072027,
+              22.398518
+            ],
+            [
+              71.072206,
+              22.399358
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1076",
+      "properties": {
+        "parcel_id": "P-1076",
+        "survey_number": "Sur-1076",
+        "khasra_number": "1076",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.18,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1076",
+        "owner_count": 1,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 3924000,
+        "compensation_paid": 3924000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 21,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.398974,
+        "gps_lng": 71.074404
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.075502,
+              22.398927
+            ],
+            [
+              71.075127,
+              22.399684
+            ],
+            [
+              71.074201,
+              22.399739
+            ],
+            [
+              71.073343,
+              22.399609
+            ],
+            [
+              71.073305,
+              22.398596
+            ],
+            [
+              71.074206,
+              22.398055
+            ],
+            [
+              71.075142,
+              22.398209
+            ],
+            [
+              71.075502,
+              22.398927
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1077",
+      "properties": {
+        "parcel_id": "P-1077",
+        "survey_number": "Sur-1077",
+        "khasra_number": "1077",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.67,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1077",
+        "owner_count": 6,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 4806000,
+        "compensation_paid": 4806000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 18,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.399238,
+        "gps_lng": 71.077907
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.078983,
+              22.399332
+            ],
+            [
+              71.078628,
+              22.400133
+            ],
+            [
+              71.077867,
+              22.400472
+            ],
+            [
+              71.076939,
+              22.399912
+            ],
+            [
+              71.076701,
+              22.399116
+            ],
+            [
+              71.077197,
+              22.398294
+            ],
+            [
+              71.077884,
+              22.398189
+            ],
+            [
+              71.079059,
+              22.39846
+            ],
+            [
+              71.078983,
+              22.399332
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1078",
+      "properties": {
+        "parcel_id": "P-1078",
+        "survey_number": "Sur-1078",
+        "khasra_number": "1078",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.39,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1078",
+        "owner_count": 4,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 4302000,
+        "compensation_paid": 4302000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 22,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.398907,
+        "gps_lng": 71.081395
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.082559,
+              22.39892
+            ],
+            [
+              71.082417,
+              22.399498
+            ],
+            [
+              71.081639,
+              22.400073
+            ],
+            [
+              71.080825,
+              22.399721
+            ],
+            [
+              71.080133,
+              22.399316
+            ],
+            [
+              71.080196,
+              22.398432
+            ],
+            [
+              71.080818,
+              22.398128
+            ],
+            [
+              71.081605,
+              22.397963
+            ],
+            [
+              71.082366,
+              22.398112
+            ],
+            [
+              71.082559,
+              22.39892
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1079",
+      "properties": {
+        "parcel_id": "P-1079",
+        "survey_number": "Sur-1079",
+        "khasra_number": "1079",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.14,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1079",
+        "owner_count": 1,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 5652000,
+        "compensation_paid": 5652000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 13,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.402177,
+        "gps_lng": 71.053758
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.054978,
+              22.402097
+            ],
+            [
+              71.054583,
+              22.402862
+            ],
+            [
+              71.054069,
+              22.4033
+            ],
+            [
+              71.053174,
+              22.403035
+            ],
+            [
+              71.052473,
+              22.402567
+            ],
+            [
+              71.052803,
+              22.401947
+            ],
+            [
+              71.053085,
+              22.401259
+            ],
+            [
+              71.053879,
+              22.401303
+            ],
+            [
+              71.054777,
+              22.401225
+            ],
+            [
+              71.054978,
+              22.402097
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1080",
+      "properties": {
+        "parcel_id": "P-1080",
+        "survey_number": "Sur-1080",
+        "khasra_number": "1080",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.45,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1080",
+        "owner_count": 4,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 6210000,
+        "compensation_paid": 6210000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 12,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.402295,
+        "gps_lng": 71.056913
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.058383,
+              22.402319
+            ],
+            [
+              71.057642,
+              22.40291
+            ],
+            [
+              71.057009,
+              22.403224
+            ],
+            [
+              71.055862,
+              22.403182
+            ],
+            [
+              71.055916,
+              22.402329
+            ],
+            [
+              71.05582,
+              22.40156
+            ],
+            [
+              71.056754,
+              22.401122
+            ],
+            [
+              71.057915,
+              22.401712
+            ],
+            [
+              71.058383,
+              22.402319
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1081",
+      "properties": {
+        "parcel_id": "P-1081",
+        "survey_number": "Sur-1081",
+        "khasra_number": "1081",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.44,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1081",
+        "owner_count": 6,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 4392000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 37,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.402444,
+        "gps_lng": 71.060731
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.061902,
+              22.402446
+            ],
+            [
+              71.061564,
+              22.403292
+            ],
+            [
+              71.060873,
+              22.40351
+            ],
+            [
+              71.059806,
+              22.403189
+            ],
+            [
+              71.059381,
+              22.40242
+            ],
+            [
+              71.059927,
+              22.401632
+            ],
+            [
+              71.060844,
+              22.40147
+            ],
+            [
+              71.061548,
+              22.401589
+            ],
+            [
+              71.061902,
+              22.402446
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1082",
+      "properties": {
+        "parcel_id": "P-1082",
+        "survey_number": "Sur-1082",
+        "khasra_number": "1082",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.08,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1082",
+        "owner_count": 3,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 7344000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 35,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.402599,
+        "gps_lng": 71.063778
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.065022,
+              22.40264
+            ],
+            [
+              71.064944,
+              22.403382
+            ],
+            [
+              71.063637,
+              22.403546
+            ],
+            [
+              71.062729,
+              22.40328
+            ],
+            [
+              71.062835,
+              22.402769
+            ],
+            [
+              71.06273,
+              22.401849
+            ],
+            [
+              71.063707,
+              22.401401
+            ],
+            [
+              71.064621,
+              22.401926
+            ],
+            [
+              71.065022,
+              22.40264
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1083",
+      "properties": {
+        "parcel_id": "P-1083",
+        "survey_number": "Sur-1083",
+        "khasra_number": "1083",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 3.36,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1083",
+        "owner_count": 4,
+        "acquisition_status": "Under Process",
+        "compensation_status": "Pending",
+        "compensation_assessed": 6048000,
+        "compensation_paid": 0,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Not Taken",
+        "risk_level": "Medium",
+        "ai_risk_score": 47,
+        "field_verified": false,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.402672,
+        "gps_lng": 71.067787
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.068949,
+              22.402737
+            ],
+            [
+              71.068385,
+              22.403642
+            ],
+            [
+              71.067461,
+              22.40365
+            ],
+            [
+              71.066778,
+              22.403103
+            ],
+            [
+              71.066876,
+              22.402022
+            ],
+            [
+              71.067672,
+              22.401746
+            ],
+            [
+              71.068391,
+              22.401803
+            ],
+            [
+              71.068949,
+              22.402737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1084",
+      "properties": {
+        "parcel_id": "P-1084",
+        "survey_number": "Sur-1084",
+        "khasra_number": "1084",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 2.23,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1084",
+        "owner_count": 1,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 4014000,
+        "compensation_paid": 4014000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 24,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.402624,
+        "gps_lng": 71.071326
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.072618,
+              22.402575
+            ],
+            [
+              71.071829,
+              22.403633
+            ],
+            [
+              71.07064,
+              22.403422
+            ],
+            [
+              71.070385,
+              22.402787
+            ],
+            [
+              71.070486,
+              22.40164
+            ],
+            [
+              71.071999,
+              22.401688
+            ],
+            [
+              71.072618,
+              22.402575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "P-1085",
+      "properties": {
+        "parcel_id": "P-1085",
+        "survey_number": "Sur-1085",
+        "khasra_number": "1085",
+        "village": "Kuvadva",
+        "taluka": "Limbdi",
+        "district": "Rajkot",
+        "state": "Gujarat",
+        "project_id": "NH-GJ-2026-001",
+        "project_name": "Ahmedabad\u2013Rajkot Green Highway Expansion",
+        "area_ha": 4.36,
+        "land_type": "Agricultural / Irrigated Cotton",
+        "owner_name": "Local Agriculturist 1085",
+        "owner_count": 3,
+        "acquisition_status": "Acquired",
+        "compensation_status": "Paid",
+        "compensation_assessed": 7848000,
+        "compensation_paid": 7848000,
+        "legal_status": "Clear",
+        "legal_case_no": "None",
+        "possession_status": "Taken",
+        "risk_level": "Low",
+        "ai_risk_score": 12,
+        "field_verified": true,
+        "field_verified_date": "2026-08-20",
+        "field_officer": "Amit B. Parmar",
+        "gps_lat": 22.402103,
+        "gps_lng": 71.07466
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.076049,
+              22.402114
+            ],
+            [
+              71.075277,
+              22.40306
+            ],
+            [
+              71.074838,
+              22.403316
+            ],
+            [
+              71.073977,
+              22.403072
+            ],
+            [
+              71.073726,
+              22.40191
+            ],
+            [
+              71.073609,
+              22.401056
+            ],
+            [
+              71.074489,
+              22.401084
+            ],
+            [
+              71.075316,
+              22.401216
+            ],
+            [
+              71.076049,
+              22.402114
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

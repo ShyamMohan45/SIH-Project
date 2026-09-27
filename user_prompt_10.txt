@@ -1,0 +1,1972 @@
+<USER_REQUEST>
+I NOW WANT TO BUILD AND START THE COMPLETE N-LAMS BACKEND.
+
+IMPORTANT:
+
+DO NOT MODIFY MY MAIN WEBSITE UI.
+
+DO NOT MODIFY THE N-LAMS FIELD OFFICER APPLICATION UI.
+
+DO NOT REBUILD THE FRONTEND.
+
+DO NOT BREAK THE EXISTING FIELD OFFICER API CONTRACTS.
+
+The goal of this task is to create a proper working backend that both:
+
+1. N-LAMS Main Web Portal
+2. N-LAMS Field Officer Android/PWA App
+
+can communicate with.
+
+============================================================
+1. BACKEND TECHNOLOGY
+============================================================
+
+Use:
+
+Python
+FastAPI
+Pydantic
+SQLAlchemy
+PostgreSQL
+PostGIS
+Uvicorn
+JWT authentication
+
+Use clean modular architecture.
+
+============================================================
+2. BACKEND PROJECT STRUCTURE
+============================================================
+
+Create/organize:
+
+n-lams-backend/
+
+    app/
+        main.py
+
+        core/
+            config.py
+            security.py
+
+        db/
+            database.py
+            models/
+            migrations/
+
+        schemas/
+
+        api/
+            auth.py
+            dashboard.py
+            projects.py
+            parcels.py
+            workflow.py
+            compensation.py
+            legal.py
+            rr.py
+            field.py
+            gis.py
+            risk.py
+            alerts.py
+            recommendations.py
+            reports.py
+            audit.py
+
+        services/
+            project_service.py
+            parcel_service.py
+            field_service.py
+            gis_service.py
+            risk_service.py
+            alert_service.py
+            recommendation_service.py
+            audit_service.py
+
+        ml/
+            model/
+            preprocessing/
+            prediction.py
+            explainability.py
+
+        utils/
+
+    tests/
+
+    uploads/
+
+    models/
+
+    requirements.txt
+
+    .env.example
+
+    README.md
+
+Do not put everything into one huge Python file.
+
+============================================================
+3. DATABASE
+============================================================
+
+Use PostgreSQL.
+
+Use PostGIS for spatial data.
+
+Database should support:
+
+Projects
+Parcels
+Owners
+Workflow
+Compensation
+Legal
+R&R
+Documents
+Field Inspections
+Inspection Tasks
+Inspection Assignments
+Inspection Checklists
+Inspection Photos
+Inspection Issues
+GPS Logs
+Field Verifications
+Risk Predictions
+Alerts
+Recommendations
+Audit Logs
+Users
+Roles
+
+============================================================
+4. DATABASE RELATIONSHIPS
+============================================================
+
+Use this relationship:
+
+Project
+   ↓
+Parcel
+   ↓
+Inspection Task
+   ↓
+Field Inspection
+   ├── GPS
+   ├── Photos
+   ├── Checklist
+   ├── Issues
+   └── Verification
+
+Also connect:
+
+Project
+   ↓
+Workflow
+Compensation
+Legal
+R&R
+Risk
+Alerts
+Recommendations
+Audit
+
+============================================================
+5. USERS AND RBAC
+============================================================
+
+Create roles:
+
+CENTRAL_ADMIN
+STATE_OFFICER
+DISTRICT_OFFICER
+FIELD_OFFICER
+VIEWER
+
+Implement JWT authentication.
+
+Users must only access authorized data.
+
+Field Officer:
+
+- own profile
+- assigned tasks
+- assigned parcels
+- own inspections
+
+District Officer:
+
+- assigned district
+
+State Officer:
+
+- assigned state
+
+Central Admin:
+
+- national access
+
+Viewer:
+
+- read-only
+
+RBAC must be enforced on the BACKEND.
+
+Do not rely only on frontend route hiding.
+
+============================================================
+6. USER MODEL
+============================================================
+
+Create:
+
+users
+
+Fields:
+
+id
+name
+email
+password_hash
+role
+state
+district
+officer_id
+is_active
+created_at
+updated_at
+
+Do not store plain-text passwords.
+
+Do not hard-code passwords.
+
+Create seeded DEMO users through a seed script or environment configuration.
+
+============================================================
+7. PROJECT MODEL
+============================================================
+
+Create projects:
+
+id
+project_code
+name
+project_type
+state
+district
+land_required
+land_acquired
+affected_families
+displaced_families
+status
+start_date
+target_date
+actual_completion_date
+current_stage
+created_at
+updated_at
+
+============================================================
+8. PARCEL MODEL
+============================================================
+
+Create parcels:
+
+id
+project_id
+survey_number
+village
+district
+area
+owner_count
+acquisition_status
+compensation_status
+legal_status
+possession_status
+risk_level
+geometry
+created_at
+updated_at
+
+geometry must use PostGIS.
+
+Use:
+
+WGS84 / EPSG:4326
+
+Use Polygon or MultiPolygon.
+
+============================================================
+9. GIS API
+============================================================
+
+Create:
+
+GET /api/map
+
+Return valid GeoJSON.
+
+Each parcel should contain properties such as:
+
+id
+project_id
+survey_number
+village
+district
+area
+risk_level
+acquisition_status
+compensation_status
+legal_status
+field_verification_status
+
+Geometry must come from PostGIS.
+
+Use proper spatial conversion.
+
+Do not return fake UI rectangles as the GIS geometry.
+
+The frontend must receive actual GeoJSON polygons.
+
+============================================================
+10. PROJECT API
+============================================================
+
+Implement:
+
+GET /api/projects
+
+GET /api/projects/{id}
+
+POST /api/projects
+
+PUT /api/projects/{id}
+
+GET /api/projects/{id}/workflow
+
+GET /api/projects/{id}/parcels
+
+GET /api/projects/{id}/risk
+
+GET /api/projects/{id}/alerts
+
+GET /api/projects/{id}/inspections
+
+============================================================
+11. PARCEL API
+============================================================
+
+Implement:
+
+GET /api/parcels
+
+GET /api/parcels/{id}
+
+POST /api/parcels
+
+PUT /api/parcels/{id}
+
+GET /api/parcels/{id}/history
+
+GET /api/parcels/{id}/inspections
+
+GET /api/parcels/{id}/risk
+
+Search by:
+
+Khasra number
+Survey number
+Village
+District
+Project
+
+============================================================
+12. WORKFLOW
+============================================================
+
+Implement acquisition lifecycle:
+
+Proposal
+Scrutiny
+Approval
+Notification
+Objection
+Award
+Compensation
+R&R
+Possession
+Closure
+
+Each workflow stage should contain:
+
+stage
+planned_start
+planned_end
+actual_start
+actual_end
+status
+responsible_officer
+remarks
+
+============================================================
+13. DELAY CALCULATION
+============================================================
+
+Do NOT hard-code delay.
+
+For completed stages:
+
+delay = actual_end - planned_end
+
+For incomplete stages:
+
+delay = current_date - planned_end
+
+Return:
+
+delay_days
+status
+
+Possible status:
+
+ON_TRACK
+AT_RISK
+DELAYED
+
+============================================================
+14. FIELD OFFICER API COMPATIBILITY
+============================================================
+
+IMPORTANT:
+
+The Field Officer application already expects these APIs.
+
+Maintain these exact routes:
+
+POST /api/auth/login
+
+GET /api/field/profile
+
+GET /api/field/tasks
+
+GET /api/field/tasks/{id}
+
+POST /api/field/inspection/start
+
+POST /api/field/inspection/gps
+
+POST /api/field/inspection/photos
+
+POST /api/field/inspection/checklist
+
+POST /api/field/inspection/issues
+
+POST /api/field/inspection/submit
+
+GET /api/field/inspection/{id}
+
+GET /api/field/history
+
+GET /api/field/map
+
+POST /api/risk/predict
+
+POST /api/sync
+
+DO NOT rename these routes.
+
+DO NOT remove them.
+
+DO NOT change their purpose.
+
+If improvements are needed, preserve backward compatibility.
+
+============================================================
+15. FIELD TASKS
+============================================================
+
+Create inspection_tasks.
+
+Fields:
+
+id
+inspection_code
+project_id
+parcel_id
+assigned_officer_id
+priority
+reason
+assigned_date
+due_date
+completed_date
+status
+created_at
+updated_at
+
+Statuses:
+
+PENDING
+IN_PROGRESS
+COMPLETED
+OVERDUE
+RETURNED
+
+Priorities:
+
+LOW
+MEDIUM
+HIGH
+CRITICAL
+
+============================================================
+16. FIELD INSPECTION
+============================================================
+
+Create field_inspections.
+
+Fields:
+
+id
+inspection_code
+project_id
+parcel_id
+officer_id
+started_at
+submitted_at
+latitude
+longitude
+gps_accuracy
+gps_verified
+khasra_expected
+khasra_observed
+khasra_matched
+boundary_status
+land_use_recorded
+land_use_observed
+land_use_matched
+crop_type
+structure_present
+encroachment_status
+occupancy_status
+compensation_status
+compensation_issue
+objection_status
+dispute_type
+rr_status
+rr_issue
+remarks
+status
+created_at
+updated_at
+
+============================================================
+17. GPS
+============================================================
+
+Create field_gps_logs.
+
+Store:
+
+inspection_id
+officer_id
+latitude
+longitude
+accuracy
+timestamp
+
+Validate GPS.
+
+Calculate distance from assigned parcel geometry.
+
+Use PostGIS spatial functions where appropriate.
+
+Return:
+
+gps_verified
+distance_meters
+accuracy
+
+Do NOT fabricate GPS.
+
+If the Field Officer app sends demo GPS, the request should contain an explicit demo/simulation indicator.
+
+============================================================
+18. KHASRA VERIFICATION
+============================================================
+
+When field officer submits:
+
+Expected:
+1042
+
+Observed:
+1043
+
+Return:
+
+khasra_matched = false
+
+Automatically create:
+
+HIGH
+
+issue:
+
+Khasra mismatch
+
+Do not require the frontend to manually create this issue.
+
+============================================================
+19. BOUNDARY VERIFICATION
+============================================================
+
+Accept:
+
+YES
+NO
+UNCERTAIN
+
+If:
+
+NO
+
+create:
+
+BOUNDARY MISMATCH
+
+severity:
+
+HIGH
+
+Store officer remarks.
+
+============================================================
+20. LAND USE
+============================================================
+
+Store:
+
+recorded land use
+observed land use
+matched
+crop type
+land condition
+
+Possible land use:
+
+Agricultural
+Residential
+Commercial
+Industrial
+Barren
+Mixed
+Other
+
+If mismatch:
+
+create issue.
+
+============================================================
+21. STRUCTURE / ENCROACHMENT
+============================================================
+
+Store:
+
+structure_present
+structure_type
+structure_count
+
+Encroachment:
+
+NO
+YES
+UNCERTAIN
+
+If YES:
+
+create issue.
+
+============================================================
+22. OWNER/OCCUPANCY
+============================================================
+
+Keep personal data minimal.
+
+Store:
+
+owner/occupant present
+person type
+occupancy status
+
+Do not collect unnecessary sensitive information.
+
+============================================================
+23. COMPENSATION
+============================================================
+
+Store:
+
+compensation_status
+award_amount
+compensation_issue
+field_confirmation
+remarks
+
+Possible issues:
+
+Payment not received
+Amount dispute
+Bank/account issue
+Award not communicated
+No issue
+Other
+
+============================================================
+24. LEGAL / OBJECTION
+============================================================
+
+Store:
+
+objection_status
+dispute_type
+severity
+description
+
+Possible:
+
+Owner dispute
+Boundary dispute
+Compensation dispute
+Land ownership dispute
+Access dispute
+Legal issue
+Other
+
+============================================================
+25. R&R
+============================================================
+
+Store:
+
+rr_required
+rr_status
+rr_type
+rr_issue
+remarks
+
+Types:
+
+Housing
+Livelihood
+Employment
+Resettlement
+Other
+
+============================================================
+26. CHECKLIST
+============================================================
+
+Create inspection_checklists.
+
+Store:
+
+Boundary visible
+Survey marker available
+Land use verified
+Area consistent
+Notice received
+Owner/cultivator verified
+Compensation discussed
+Possession checked
+Affected family verified
+R&R checked
+Survey number checked
+Field evidence captured
+
+============================================================
+27. PHOTOS
+============================================================
+
+Create inspection_photos.
+
+Store:
+
+photo_id
+inspection_id
+project_id
+parcel_id
+category
+file_name
+file_path
+timestamp
+latitude
+longitude
+uploaded_by
+
+Categories:
+
+SURVEY_MARKER
+BOUNDARY
+LAND_CROP
+STRUCTURE
+ENCROACHMENT
+COMPENSATION
+OTHER
+
+Use multipart/form-data.
+
+Validate:
+
+file type
+file size
+
+Do not claim that a photo is authentic simply because GPS metadata exists.
+
+Only show:
+
+GPS metadata available
+
+when actual metadata exists.
+
+============================================================
+28. ISSUE ENGINE
+============================================================
+
+Automatically create issues.
+
+Rules:
+
+Khasra mismatch
+→ HIGH
+
+Boundary mismatch
+→ HIGH
+
+Encroachment
+→ HIGH
+
+Owner dispute
+→ HIGH
+
+Land-use mismatch
+→ HIGH
+
+Compensation problem
+→ MEDIUM/HIGH
+
+R&R issue
+→ appropriate severity
+
+Do not duplicate identical issues unnecessarily.
+
+============================================================
+29. INSPECTION SUBMISSION
+============================================================
+
+Implement:
+
+POST /api/field/inspection/submit
+
+Accept:
+
+inspection
+GPS
+checklist
+parcel verification
+land use
+occupancy
+compensation
+R&R
+issues
+photos
+remarks
+
+On successful submission:
+
+1. Save inspection
+2. Save checklist
+3. Save photos
+4. Save issues
+5. Update parcel field verification
+6. Update task status
+7. Create audit log
+8. Recalculate risk
+9. Create alerts where appropriate
+10. Generate recommendations where appropriate
+
+Return:
+
+inspection_id
+inspection_code
+status
+risk_level
+risk_probability
+alerts_created
+
+============================================================
+30. INSPECTION STATUS
+============================================================
+
+Use:
+
+DRAFT
+IN_PROGRESS
+SUBMITTED
+UNDER_REVIEW
+APPROVED
+REJECTED
+RETURNED
+
+============================================================
+31. AUDIT LOG
+============================================================
+
+Create audit_logs.
+
+Store:
+
+user_id
+action
+project_id
+parcel_id
+inspection_id
+timestamp
+before_value
+after_value
+
+Examples:
+
+FO-007 started inspection
+
+FO-007 verified GPS
+
+FO-007 verified Khasra 1042
+
+FO-007 uploaded boundary photo
+
+FO-007 reported compensation issue
+
+FO-007 submitted inspection
+
+AI risk recalculated
+
+Officer approved inspection
+
+============================================================
+32. AI / ML ENGINE
+============================================================
+
+AI belongs to backend.
+
+Do NOT put ML training inside React.
+
+Do NOT put ML training inside Android.
+
+Use:
+
+Pandas
+NumPy
+scikit-learn
+
+Optionally:
+
+XGBoost
+
+Use:
+
+Random Forest or XGBoost
+
+for delay-risk prediction.
+
+============================================================
+33. MODEL FEATURES
+============================================================
+
+Use features such as:
+
+land_area
+parcel_count
+affected_families
+legal_dispute_count
+dispute_ratio
+approval_delay
+notification_delay
+compensation_completion
+rr_completion
+possession_completion
+pending_documents
+stakeholder_response_time
+current_stage
+documentation_score
+
+Field features:
+
+field_verification_completed
+gps_verified
+boundary_mismatch
+khasra_mismatch
+encroachment_detected
+owner_dispute
+compensation_issue
+legal_issue
+land_use_mismatch
+rr_issue
+inspection_delay
+
+============================================================
+34. RISK API
+============================================================
+
+Implement:
+
+POST /api/risk/predict
+
+Input:
+
+project/parcel/inspection features
+
+Output:
+
+prediction
+risk_probability
+risk_level
+model_version
+created_at
+
+Risk levels:
+
+LOW
+MEDIUM
+HIGH
+CRITICAL
+
+Do not hard-code actual prediction values.
+
+============================================================
+35. MODEL STORAGE
+============================================================
+
+Use joblib for prototype model storage.
+
+Example:
+
+models/
+
+delay_risk_model.joblib
+
+preprocessor.joblib
+
+If no trained model exists yet:
+
+Create a reproducible synthetic training dataset.
+
+Train a baseline model.
+
+Save it.
+
+Do not claim that the model has real-world government accuracy.
+
+Clearly document:
+
+MODEL TRAINED ON SYNTHETIC DEMO DATA
+
+============================================================
+36. MODEL EVALUATION
+============================================================
+
+Calculate and expose where appropriate:
+
+Accuracy
+Precision
+Recall
+F1
+ROC-AUC
+
+Do not fabricate performance metrics.
+
+Only show metrics calculated from the actual synthetic/test dataset.
+
+============================================================
+37. EXPLAINABLE AI
+============================================================
+
+Use SHAP where practical.
+
+Create:
+
+app/ml/explainability.py
+
+Return top contributing features.
+
+Example:
+
+compensation_completion
+legal_dispute_count
+approval_delay
+pending_documents
+boundary_mismatch
+
+The website should be able to display:
+
+WHY IS THIS PROJECT HIGH RISK?
+
+Do not invent explanations.
+
+============================================================
+38. RISK PREDICTION STORAGE
+============================================================
+
+Create risk_predictions:
+
+id
+project_id
+parcel_id
+prediction
+risk_level
+model_version
+feature_snapshot
+created_at
+
+============================================================
+39. FIELD DATA → AI
+============================================================
+
+After Field Officer inspection:
+
+Field data must become model features.
+
+Example:
+
+boundary_mismatch = true
+
+owner_dispute = true
+
+compensation_issue = true
+
+Then:
+
+recalculate risk.
+
+The updated risk must be stored.
+
+============================================================
+40. ALERT ENGINE
+============================================================
+
+Create alerts.
+
+Fields:
+
+id
+project_id
+parcel_id
+inspection_id
+severity
+title
+description
+assigned_to
+status
+created_at
+resolved_at
+
+Create alert automatically for important issues.
+
+Example:
+
+HIGH PRIORITY FIELD ISSUE
+
+Project:
+NH-GJ-2026-001
+
+Parcel:
+1042
+
+Issue:
+Owner dispute
+
+Reported by:
+FO-007
+
+============================================================
+41. RECOMMENDATION ENGINE
+============================================================
+
+Create recommendations.
+
+This does NOT need another ML model.
+
+Use transparent rule-based logic.
+
+Examples:
+
+compensation_issue
+→ prioritize compensation verification
+
+boundary_mismatch
+→ initiate GIS/cadastral verification
+
+owner_dispute
+→ assign legal review
+
+rr_issue
+→ review R&R case
+
+pending_documents
+→ resolve documentation
+
+Store:
+
+id
+project_id
+parcel_id
+risk_id
+recommendation
+reason
+priority
+assigned_to
+due_date
+status
+created_at
+
+Statuses:
+
+OPEN
+IN_PROGRESS
+COMPLETED
+DISMISSED
+
+============================================================
+42. CLOSED LOOP
+============================================================
+
+Implement:
+
+Risk detected
+↓
+Recommendation
+↓
+Officer action
+↓
+Field inspection
+↓
+Ground truth
+↓
+Updated parcel
+↓
+AI recalculation
+↓
+New risk
+↓
+Alert
+↓
+Action
+
+============================================================
+43. DASHBOARD API
+============================================================
+
+Create:
+
+GET /api/dashboard/summary
+
+Return actual database values:
+
+active_projects
+total_land_required
+total_land_acquired
+acquisition_progress
+affected_families
+pending_compensation
+pending_rr
+legal_cases
+high_risk_projects
+overdue_activities
+
+Also return:
+
+risk_distribution
+
+recent_alerts
+
+recent_field_inspections
+
+projects_needing_attention
+
+============================================================
+44. REPORT APIs
+============================================================
+
+Create:
+
+GET /api/reports/projects
+
+GET /api/reports/delays
+
+GET /api/reports/compensation
+
+GET /api/reports/legal
+
+GET /api/reports/rr
+
+GET /api/reports/field-inspections
+
+GET /api/reports/risk
+
+Do not return fake values.
+
+============================================================
+45. DEMO DATA
+============================================================
+
+Create a seed script.
+
+Use synthetic/demo data.
+
+Main project:
+
+Ahmedabad–Rajkot Green Highway Expansion
+
+Project ID:
+
+NH-GJ-2026-001
+
+State:
+
+Gujarat
+
+District:
+
+Rajkot / Surendranagar
+
+Land required:
+
+1250 ha
+
+Land acquired:
+
+780 ha
+
+Affected families:
+
+2400
+
+Main parcel:
+
+Khasra 1042
+
+Village:
+
+Limbdi
+
+District:
+
+Surendranagar
+
+Area:
+
+2.45 ha
+
+Create at least:
+
+30 synthetic parcels
+
+5–10 field inspection tasks
+
+Multiple project statuses
+
+Multiple risk levels
+
+Multiple workflow stages
+
+Multiple compensation statuses
+
+Multiple legal statuses
+
+============================================================
+46. GIS DEMO GEOMETRY
+============================================================
+
+Create synthetic irregular parcel polygons.
+
+IMPORTANT:
+
+Do NOT create a rectangular grid.
+
+Use realistic irregular polygons.
+
+Use GeoJSON/PostGIS geometries.
+
+These are DEMO GIS DATA.
+
+Do not claim they are official cadastral boundaries.
+
+Khasra examples:
+
+1038
+1039
+1040
+1041
+1042
+1042/1
+1042/2
+1042/3
+1043
+1043/1
+1044
+1045
+1046
+1049
+1050
+1051
+1052
+
+============================================================
+47. DEMO FIELD INSPECTION
+============================================================
+
+Create:
+
+Inspection:
+
+FO-1042-001
+
+Parcel:
+
+1042
+
+Priority:
+
+HIGH
+
+Reason:
+
+Compensation verification
+
+Demo state:
+
+GPS:
+Verified
+
+Khasra:
+Matched
+
+Boundary:
+Mismatch
+
+Land use:
+Agricultural
+
+Encroachment:
+No
+
+Owner:
+Present
+
+Compensation:
+Issue reported
+
+Dispute:
+Owner dispute
+
+R&R:
+Pending
+
+Photos:
+
+3–5 demo photos
+
+Issues:
+
+Boundary mismatch
+Compensation issue
+Owner dispute
+
+Clearly mark demo data.
+
+============================================================
+48. FIELD OFFICER → BACKEND FLOW
+============================================================
+
+The following must work:
+
+Field Officer login
+
+↓
+
+GET /api/field/tasks
+
+↓
+
+Open Khasra 1042
+
+↓
+
+POST inspection/start
+
+↓
+
+POST GPS
+
+↓
+
+POST photos
+
+↓
+
+POST checklist
+
+↓
+
+POST issues
+
+↓
+
+POST inspection/submit
+
+↓
+
+Backend stores inspection
+
+↓
+
+Backend updates parcel
+
+↓
+
+Backend creates audit log
+
+↓
+
+Backend recalculates AI risk
+
+↓
+
+Backend creates alert
+
+↓
+
+Backend creates recommendation
+
+↓
+
+Main N-LAMS website reads updated data
+
+============================================================
+49. MAIN WEBSITE → BACKEND FLOW
+============================================================
+
+Website:
+
+Dashboard
+
+↓
+
+GET /api/dashboard/summary
+
+Project
+
+↓
+
+GET /api/projects/{id}
+
+GIS
+
+↓
+
+GET /api/map
+
+Parcel
+
+↓
+
+GET /api/parcels/{id}
+
+Risk
+
+↓
+
+GET /api/risk/projects/{id}
+
+Field Inspection
+
+↓
+
+GET /api/field/inspection/{id}
+
+Alerts
+
+↓
+
+GET /api/alerts
+
+Recommendations
+
+↓
+
+GET /api/recommendations
+
+============================================================
+50. CORS
+============================================================
+
+Configure CORS correctly for development.
+
+Allow the local N-LAMS web frontend.
+
+Allow Field Officer development environment.
+
+Do not use unsafe wildcard configuration for production.
+
+Make allowed origins configurable through environment variables.
+
+============================================================
+51. ENVIRONMENT VARIABLES
+============================================================
+
+Create:
+
+.env.example
+
+Include:
+
+DATABASE_URL
+
+JWT_SECRET
+
+JWT_ALGORITHM
+
+ACCESS_TOKEN_EXPIRE_MINUTES
+
+CORS_ORIGINS
+
+UPLOAD_DIR
+
+MODEL_DIR
+
+ENVIRONMENT
+
+Do not commit real secrets.
+
+============================================================
+52. DATABASE MIGRATIONS
+============================================================
+
+Use Alembic.
+
+Create initial migration.
+
+The backend should be reproducible.
+
+Commands should include:
+
+alembic upgrade head
+
+============================================================
+53. DEVELOPMENT COMMANDS
+============================================================
+
+Create README with:
+
+Create virtual environment
+
+Install dependencies
+
+Configure .env
+
+Create database
+
+Enable PostGIS
+
+Run migrations
+
+Seed demo data
+
+Start backend
+
+Example:
+
+python -m venv .venv
+
+Windows activation:
+
+.venv\Scripts\activate
+
+Install:
+
+pip install -r requirements.txt
+
+Migration:
+
+alembic upgrade head
+
+Seed:
+
+python -m app.seed
+
+Start:
+
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+============================================================
+54. API DOCUMENTATION
+============================================================
+
+FastAPI Swagger should work:
+
+/docs
+
+ReDoc:
+
+/redoc
+
+Every important API should have:
+
+request schema
+response schema
+authentication requirement
+description
+
+============================================================
+55. HEALTH CHECK
+============================================================
+
+Create:
+
+GET /health
+
+Return:
+
+{
+  "status": "ok"
+}
+
+Also create database health check if practical.
+
+============================================================
+56. TESTING
+============================================================
+
+Create backend tests.
+
+Test:
+
+Login
+
+RBAC
+
+Project creation
+
+Project retrieval
+
+Parcel retrieval
+
+GIS GeoJSON
+
+Field task retrieval
+
+Inspection start
+
+GPS
+
+Khasra verification
+
+Issue creation
+
+Photo upload
+
+Inspection submission
+
+AI prediction
+
+Alert creation
+
+Recommendation creation
+
+Audit log
+
+============================================================
+57. FINAL END-TO-END TEST
+============================================================
+
+Run this exact test:
+
+1. Start PostgreSQL/PostGIS.
+
+2. Run migrations.
+
+3. Seed demo data.
+
+4. Start FastAPI.
+
+5. Open /docs.
+
+6. Login.
+
+7. Get project NH-GJ-2026-001.
+
+8. Get Khasra 1042.
+
+9. Get GIS GeoJSON.
+
+10. Get field task FO-1042-001.
+
+11. Start inspection.
+
+12. Submit GPS.
+
+13. Submit checklist.
+
+14. Submit photo.
+
+15. Submit field issue.
+
+16. Submit inspection.
+
+17. Verify inspection exists in database.
+
+18. Verify parcel updated.
+
+19. Verify issue created.
+
+20. Verify audit log created.
+
+21. Verify AI endpoint called.
+
+22. Verify risk prediction returned.
+
+23. Verify risk prediction stored.
+
+24. Verify alert created.
+
+25. Verify recommendation created.
+
+26. Query project again.
+
+27. Confirm updated field inspection is visible.
+
+============================================================
+58. DO NOT BREAK FRONTEND
+============================================================
+
+After backend implementation:
+
+Test the existing N-LAMS web frontend.
+
+Test the existing N-LAMS Field application.
+
+If an API response needs adjustment:
+
+preserve existing API compatibility.
+
+Do not randomly change frontend code to hide backend errors.
+
+Fix the backend properly.
+
+============================================================
+59. NO FAKE DATA EXCEPT SEEDED DEMO DATA
+============================================================
+
+Demo data is allowed.
+
+Synthetic data is allowed.
+
+But:
+
+GPS must come from request/device or explicitly marked demo.
+
+AI risk must come from model/backend.
+
+Database updates must actually happen.
+
+Inspection submission must actually save.
+
+GIS geometry must actually come from database.
+
+Alerts must actually be created.
+
+Audit logs must actually be created.
+
+============================================================
+60. FINAL RESULT
+============================================================
+
+I want a REAL WORKING N-LAMS BACKEND.
+
+Not a mock backend.
+
+Not static JSON.
+
+Not fake API responses.
+
+Not frontend-only data.
+
+The backend must actually:
+
+AUTHENTICATE
+AUTHORIZE
+STORE
+VALIDATE
+PROCESS
+CALCULATE
+PREDICT
+EXPLAIN
+ALERT
+RECOMMEND
+AUDIT
+SYNC
+
+============================================================
+FINAL REPORT
+============================================================
+
+At the end tell me:
+
+1. Backend folder structure
+2. Python version used
+3. FastAPI version
+4. PostgreSQL setup
+5. PostGIS setup
+6. SQLAlchemy setup
+7. Alembic setup
+8. JWT setup
+9. All API endpoints
+10. Database tables
+11. GIS implementation
+12. AI model
+13. AI features
+14. SHAP implementation
+15. Recommendation engine
+16. Alert engine
+17. Demo data
+18. Seed command
+19. Migration command
+20. Backend start command
+21. Swagger URL
+22. Frontend API URL
+23. Field Officer API compatibility
+24. Test results
+25. Any remaining errors
+
+MOST IMPORTANT:
+
+ACTUALLY BUILD THE BACKEND.
+
+ACTUALLY RUN IT.
+
+ACTUALLY CONNECT THE DATABASE.
+
+ACTUALLY RUN MIGRATIONS.
+
+ACTUALLY SEED DEMO DATA.
+
+ACTUALLY TEST THE APIs.
+
+ACTUALLY TEST THE FIELD OFFICER FLOW.
+
+ACTUALLY TEST THE MAIN WEBSITE CONNECTION.
+
+FIX ALL ERRORS BEFORE DECLARING IT COMPLETE.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-09-12T06:51:33+05:30.
+</ADDITIONAL_METADATA>

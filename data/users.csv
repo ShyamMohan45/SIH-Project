@@ -1,0 +1,6 @@
+id,name,email,role,department,state,district
+USR-001,Dr. Rajesh Sharma,central.admin@mord.gov.in,CENTRAL_ADMIN,"Department of Land Resources (DoLR), MoRD",All India,All Districts
+USR-002,Pooja Vaghela,state.nodal@gujarat.gov.in,STATE_OFFICER,"Revenue & Land Acquisition Dept, Gujarat",Gujarat,All Districts
+USR-003,Vikramaditya Solanki,collector.rajkot@nic.in,DISTRICT_OFFICER,"Collectorate & District Magistrate Office, Rajkot",Gujarat,Rajkot
+USR-004,Amit B. Parmar,field.surveyor@nlams.gov.in,FIELD_OFFICER,"Field Cadastral Survey Cell, Kuvadva Tehsil",Gujarat,Rajkot
+USR-005,Public Citizen Audit,viewer@nlams.gov.in,VIEWER,Public Oversight & Transparency Portal,All India,All Districts

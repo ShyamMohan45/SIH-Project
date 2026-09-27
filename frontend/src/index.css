@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* Custom Leaflet Map Container styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  z-index: 10;
+}
+
+/* Tricolor Banner Accent */
+.goi-tricolor-bar {
+  background: linear-gradient(90deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+  height: 4px;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Custom Leaflet Tooltip for Khasra Numbers on Agricultural Plots */
+.khasra-field-label {
+  background-color: rgba(11, 37, 69, 0.88) !important;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  font-size: 10px !important;
+  padding: 1px 5px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.35) !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+}
+
+.khasra-field-label::before {
+  display: none !important;
+}
+
+.khasra-field-label-hero {
+  background-color: #0b2545 !important;
+  border: 2px solid #3b82f6 !important;
+  color: #93c5fd !important;
+  font-weight: 900 !important;
+  font-size: 11px !important;
+  padding: 2px 7px !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.8) !important;
+}
+
+.khasra-field-label-selected {
+  background-color: #1d4ed8 !important;
+  border: 2px solid #60a5fa !important;
+  color: #ffffff !important;
+  font-weight: 900 !important;
+  font-size: 11px !important;
+  padding: 2px 7px !important;
+  border-radius: 5px !important;
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.9) !important;
+}
+
+

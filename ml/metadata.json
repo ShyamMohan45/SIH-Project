@@ -1,0 +1,54 @@
+{
+  "model_type": "RandomForestClassifier",
+  "features": [
+    "land_area",
+    "parcel_count",
+    "affected_families",
+    "legal_dispute_count",
+    "dispute_ratio",
+    "approval_delay",
+    "notification_delay",
+    "compensation_completion",
+    "rr_completion",
+    "possession_completion",
+    "pending_documents",
+    "stakeholder_response_time",
+    "documentation_score",
+    "stage_num"
+  ],
+  "stage_map": {
+    "Proposal": 1,
+    "Scrutiny": 2,
+    "Approval": 3,
+    "Notification": 4,
+    "Objection": 5,
+    "Award": 6,
+    "Compensation": 7,
+    "R&R": 8,
+    "Possession": 9,
+    "Closure": 10
+  },
+  "metrics": {
+    "accuracy": 0.9,
+    "precision": 0.9,
+    "recall": 0.9783,
+    "f1": 0.9375,
+    "roc_auc": 0.9523
+  },
+  "feature_importances": {
+    "compensation_completion": 0.1984,
+    "approval_delay": 0.1662,
+    "possession_completion": 0.0868,
+    "notification_delay": 0.0863,
+    "pending_documents": 0.0835,
+    "documentation_score": 0.0713,
+    "land_area": 0.0604,
+    "rr_completion": 0.0594,
+    "parcel_count": 0.0371,
+    "affected_families": 0.0369,
+    "dispute_ratio": 0.0324,
+    "legal_dispute_count": 0.0299,
+    "stakeholder_response_time": 0.0262,
+    "stage_num": 0.0252
+  }
+}

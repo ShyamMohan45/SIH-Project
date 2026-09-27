@@ -1,0 +1,18 @@
+{
+  "name": "N-LAMS Field: Ground Verification",
+  "short_name": "N-LAMS Field",
+  "description": "Ground Cadastral Verification & Land Acquisition Inspection for Cadastral Surveyors",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
